@@ -49,7 +49,7 @@ A clean and interactive **personal profile website** designed to showcase skills
 ## 📸 Screenshots
 
 ```
-![Homepage Screenshot](./images/cv.png)
+![Homepage Screenshot](./image/cv.png)
 ```
 
 ---
