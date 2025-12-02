@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>   
+<head>
+<title>Faiza's CV</title>
+<link rel="icon" href="image/icon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="script.js"></script>
+    
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+
+    
+<meta charset="utf-8">
+<meta name="description" content="It's my CV page">
+<meta name="keywords" content="html ,css ,javascript">
+<meta name="author" content="Faiza">
+<meta thhp-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width ,initial-scale=1.0 ,maximum-scale=1.0, minimum-scale=1.0;">
+    
+    
+</head>
+
+<body> 
+    
+<header>
+     <nav class="navbar">
+       <a href="Faiza's cv.pdf" class="nav-logo">FAIZA'S CV</a>
+       
+    
+<ul class= "nav-menu" >
+    
+      <li class="nav-item">
+       <b></b>
+      <b></b>
+      <a href="#home" class="nav-link">HOME</a>
+      </li>   
+    
+      <li class="nav-item">
+      <a href="#about" class="nav-link">ABOUT</a>
+      </li> 
+    
+      <li class="nav-item">
+      <a href="#skills" class="nav-link">SKILLS</a>
+      </li> 
+    
+      <li class="nav-item">
+      <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+      </li> 
+    
+     <li class="nav-item">
+     <a href="#experience" class="nav-link">EXPERIENCE</a>
+      </li> 
+    
+    
+      <li class="nav-item">
+      <a href="#services" class="nav-link">SERVICES</a>
+      </li> 
+
+    
+      <li class="nav-item">
+      <a href="#contact" class="nav-link">CONTACT</a>
+      </li> 
+    
+    
+</ul>
+    
+<div class="menuIcon"  onclick="navSlid();">
+     <span class="bar"></span>       
+     <span class="bar"></span>  
+     <span class="bar"></span>  
+         
+</div>
+         
+</nav>      
+</header>  
+
+
+<section class="home" id="home">
+<div class="row">
+       <div class="colum">
+       <div class="imgBox">
+       <img src="image/heroImagProfail.png">   
+       </div>   
+       </div>
+    
+        <div class="colum">
+        <div class="top-section-txet">  
+        <p style="font-size:18px; text-align: left; color: darkgray;" >HELLO!</p>
+        <h3>Iám Faiza AL-Handali</h3> 
+        <p style="font-size: 20px;">And Iám Web Developer</p>
+        <div><button class="btn" type="button" 
+         onclick="window.location.href='#contact'"><span class="span"></span>Hire me</button></div></div>
+         </div>
+</div></section>
+
+<section class="about" id="about">
+<div class="row">
+       <div class="colum">
+       <div class="box-text">
+       <h3><span style="color:darkgray;">Hello!</span> I'm Faiza Alhandali</h3>
+       <p>I am an <abbr title="Information Technology">(IT)</abbr>job seeker.I have a BSc in IT with
+           a minor specialization <mark>Database Management</mark>. I got many trainings that develops my skills knowledge. I have a passion for learning which make me grow every day. Seeking a rewarding and challenging position to share and improve my experience and knowledge for the advancement of my career as well as to contribute positively towards the organization goals.</p>
+ 
+      <table>
+      <tr><th>Age :</th><td>27</td></tr>
+      <tr><th>Email :</th><td>f2iza.na20@gmail.com</td></tr>
+      <tr><th>Phone :</th><td> 92972021</td></tr>
+      <tr><th class="td3">Addres:</th><td>Oman, Ad Dakhiliyah Governorate, Nizwa.</td></tr>
+      <tr><th>State :</th><td>Available</td></tr>   
+      </table>
+      </div></div>
+     
+</div></section> 
+
+<section class="skills" id="skills">
+ <h2 class="titleText">My<span>s</span>kills</h2> 
+     <div class="title">
+     <p>I have the skills that required for<br>
+     developing Web Application Development and Product Design</p></div>
+    
+       <div class="content">
+       <div class="box-skill">
+       <div class="row">
+           
+           
+        <div class="colum"> 
+ 
+        <p>HTML/CSS</p>
+        <div class="container">
+        <div class="skill html">80%</div></div>
+        
+        <p>JAVASCRIPT</p>
+        <div class="container">
+        <div class="skill js">50%</div></div>
+        
+        <p>PHP</p>
+        <div class="container">
+        <div class="skill php">60%</div></div>
+        
+      
+        <p>WORDPRESS</p>
+        <div class="container">
+        <div class="skill wordpress">50%</div></div>
+    
+        </div>
+             
+        <div class="colum" id="skill-section2">
+        
+        <p>JAVA</p>
+        <div class="container">
+         <div class="skill java">60%</div></div>
+        
+        <p>ILLUSRTATOR</p>
+        <div class="container">
+         <div class="skill illustator">70%</div></div>
+        
+        <p>ADOBE PHOTOSHOP</p>
+        <div class="container">
+         <div class="skill photoshop">50%</div></div>
+        
+      
+        <p>BOOTSTRAP</p>
+        <div class="container">
+        <div class="skill ui">40%</div></div>
+    
+        
+        </div>
+             
+            
+    
+</div></div></div></section>
+    
+<section class="portfolio" id="portfolio">
+    
+     <h2 class="titleText">My Po<span>R</span>tfolio</h2> 
+     <div class="content">
+         
+    
+    <div class="rowPortfolio"> 
+        
+    <div class="box" >
+    <div class="slid-img">
+    <img src="image/img1.jpeg" alt="1">  
+    <div class="over">
+     <p>WEB DEVELOPER</p></div>   
+    </div></div>
+    
+    <div class="box2">
+    <div class="slid-img2">
+    <img src="image/img2.jpeg" alt="2">  
+    <div class="over">
+     <p>PHOTOGRAPHY</p></div>   
+    </div></div>
+    
+    
+    <div class="box3">
+    <div class="slid-img2">
+    <img src="image/img3.png" alt="3">  
+    <div class="over">
+     <p>ADOBE PHOTOSHOP</p></div>   
+    </div></div>
+    
+     <div class="box4">
+    <div class="slid-img3">
+    <img src="image/img4.jpeg" alt="4">  
+    <div class="over">
+     <p>ILLUSRTATOR</p></div>   
+    </div></div>
+    
+    
+     <div class="box5">
+    <div class="slid-img3">
+    <img src="image/img5.png" alt="5">  
+    <div class="over">
+     <p>MOBILE APPLICATION</p></div>   
+    </div></div>
+        
+    </div></div>
+</section>
+    
+<section class="experience" id="experience">
+        <h2 class="titleText">Work <span>E</span>xperience</h2>
+        <div class="content"> 
+        
+            <div class="experience-box">
+            <div class="text">
+            <h3>Web Design<img src="image/webDev.png">
+            <p>Hajeer Academy.(2021-2021)</p></h3>
+            </div>
+            <div class="textBx">
+            <p>In 2021 , I got an online trining at Hajeer Academy.The trining was about developing      
+             a website from a to z, and I learned (html , Css , JavaScript and Php) language.We also work in XAMPP web server and we learned how to create a database by using SQL.<br><br>
+                
+            In this Course , I improve my skills in developing and designing website.
+            </p>  
+            </div>    
+            </div>
+            
+            <div class="experience-box">
+            <div class="text">
+            <h3>App Development<img src="image/mobile-app.png">
+            <p>Sas Program.(2018-2020)</p>
+            </h3>
+            </div>
+            <div class="textBx">
+            <p>I trained at Sas Center for Mobile Apps Development, during the period (2018-2020).
+             In 2018,I had trining in this center for two weeks. The scope of trining was how to develop mobile apps by use ios system.In 2019, agin I got trining in the same program ,but in Android system.<br><br>
+                
+            In 2020 ,I got trining for four months in Android system , that uses java language.
+            </p>  
+            </div>    
+            </div>
+            
+            <div class="experience-box">
+            <div class="text">
+            <h3>Computer Technician<img src="image/technician.png">
+            <p>General Directorate of Education(2018-2018)</p>
+            </h3>
+            </div>
+            <div class="textBx">
+            <p>I got trining in this institution for one month in the network department.
+             Sometimes we went to schools to fix problems.<br><br>
+             
+             Then I did trining at school and I worked as computer technician assistant 
+             for one month.I learned how to install software , and treat viruses.
+                
+                
+            </p>  
+            </div>    
+            </div>
+            
+            <div class="experience-box">
+            <div class="text">
+            <h3>UI/UX Design<img src="image/illustrator.png">
+            <p>Adomy Platform.(2020-2021)</p>
+            </h3>
+            </div>
+            <div class="textBx">
+            <p>I did an online course by adomy platform.In UX/UI design.This course helped me to design 
+               User Interface for apps or website.UX Design was tools like Figma and Adobe XD, to provide creative solutions aligned to the business goals.<br><br>
+                
+               UI Design used to draw insights from research and start mapping out how to solve any problems.
+            </p>  
+            </div>    
+            </div>
+   
+        </div></section>
+    
+<section class="services" id="services">
+    <h2 class="titleText">My <span>S</span>ervices</h2>  
+    <div class="title">
+    <P>I offer services fit for any website or app<br>I can quickly maximize
+     timely deliverables for real-time schemas.</P>  
+    </div> 
+   
+   <div class="content">
+                
+             <div class="box">
+             <div class="imgBx">
+             <img src="image/webDev.png">
+             </div>
+              <div class="text">
+              <h3>Web Design</h3>
+              </div></div> 
+                
+             <div class="box">
+             <div class="imgBx">
+             <img src="image/graphicDesign.png">
+              </div>
+              <div class="text">
+              <h3>Graphic Design</h3>
+              </div></div> 
+                
+             <div class="box">
+             <div class="imgBx">
+             <img src="image/ux.png">
+              </div>
+              <div class="text">
+              <h3>UI/UX</h3>
+              </div></div> 
+                
+             <div class="box">
+             <div class="imgBx">
+             <img src="image/mobile-app.png">
+              </div>
+              <div class="text">
+              <h3>App Development</h3>
+              </div></div>
+                
+                
+    </div></section>
+    
+    
+<section class="contact" id="contact">
+  <h2 class="titleText"><span>C</span>ontact me</h2> 
+  <div class="row">
+         <div class="colum">
+             
+             <form  method="post">
+             <div class="contactForm">
+             <h3>Contact Me</h3>  
+                
+             <div class="inputBox">
+             <input type="text" placeholder=" Enter Name" name="name" id="name" required >
+             </div>
+                
+             <div class="inputBox">
+             <input type="text" placeholder="Enter Email" name="email" id="email" required>
+             </div>
+                
+            <div class="inputBox">
+            <textarea placeholder="Plase Enter Your Massage Here .." name="msg" id="msg" required></textarea>
+            </div>
+        
+            <div class="inputBox">
+            <input type="submit" onclick="validate();" value="Login" name="login">
+            </div></div></form>  
+           
+             </div>  
+      
+      
+        <div class="colum"> 
+        <div class="txet-contact"> 
+        <h3>Let’s talk how I can help you</h3>
+        <p>If you like my work and want to avail my services then drop me a message 
+        using the contact form.Or get in touch using my email,or my contact number.
+        <br><br>See you!</p>
+            
+        <p style="font-size: 17px; line-height: 35px;"><b>Email :</b> f2iza.na20@gmail.com</p>
+        <p style="font-size: 17px;"><b>Phone :</b> +(968) 92972021</p></div></div>
+           
+     
+      
+         <button id="btnscorll" type="button" title="GO To HomePage" onclick="topFunction()">Top</button>
+          
+ </div></section>
+    
+    
+<footer class="footer">
+        
+    <h3>Faiza AL-Handali</h3>
+    <p>@faizaalhandali JUN 2022</p>
+    <p>Design - CVTemplate</p>
+    <a href="http://twitter.com/f2Iza1" class="fa fa-twitter" style="font-size: 20px;"></a>
+    <a href="http://api.whatsapp.com/send?phone=0096892972021" class="fa fa-whatsapp" style="font-size: 20px;"></a>
+    <a href="http://linkedin.com/in/faiza-alhandali-631207193" class="fa fa-linkedin" style="font-size: 20px;"></a>
+   
+    </footer> 
+    
+</body>
+</html>
+    
+<?php
+    
+include("php/connection2.php"); 
+
+if(isset($_POST['login']))  
+{  
+    $name=$_POST ["name"] ;
+    $email=$_POST ["email"] ;
+    $message=$_POST ["message"] ;
+  
+    
+     if($name=='') {   
+        echo"<script>alert('Please enter your name')</script>";  
+        exit();
+    } 
+  
+    if($email=='') {   
+        echo"<script>alert('Please enter your email')</script>";  
+        exit();
+    }  
+  
+    if($message==''){  
+        echo"<script>alert('Please enter your message')</script>";  
+        exit();  
+    }  
+    
+    $sql=" INSERT INTO login (name,email,message) VALUES ('$name' ,'$email','$message')"; 
+    if($conn->query($sql)===TRUE){
+     $conn->close();
+ }  
+} 
+?>
+    
