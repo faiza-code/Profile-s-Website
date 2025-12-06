@@ -49,7 +49,8 @@ A clean and interactive **personal profile website** designed to showcase skills
 ## 📸 Screenshots
 
 ```
-![Homepage Screenshot](CVWebsite.png)
+![Homepage Screenshot](https://github.com/faiza-code/Profile-s-Website/blob/955b18f7ab70f9d06e4e486ee26a406f3fb8a051/CVWebsite.png)
+
 ```
 
 ---
